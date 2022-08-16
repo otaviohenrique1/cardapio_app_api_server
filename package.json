@@ -1,5 +1,5 @@
 {
-  "name": "cardapio_app_api",
+  "name": "cardapio_app_api_server",
   "version": "1.0.0",
   "description": "Backend do cardapio_app",
   "main": "src/server.js",
