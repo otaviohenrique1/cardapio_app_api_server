@@ -2,7 +2,7 @@ import { BaseEntity, Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColu
 import { ItemPedido } from "./ItemPedido";
 import Produto from "./Produto";
 
-@Entity('pedido_opcional_adicionado')
+@Entity('ingrediente_opcional')
 export class IngredienteOpcional extends BaseEntity {
   @PrimaryGeneratedColumn()
   id: number;

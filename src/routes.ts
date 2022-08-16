@@ -41,7 +41,7 @@ routes.put('/pedido/:id', atualizar_pedido);
 /**
  * Rotas do cliente (Clientes da empresa cliente)
  */
-routes.get('/cliente', listar_clientes);
+routes.get('/empresa/:empresa_id/cliente', listar_clientes);
 routes.get('/cliente/:id', busca_cliente);
 routes.post('/cliente', criar_cliente);
 routes.put('/cliente/:id', atualizar_cliente);

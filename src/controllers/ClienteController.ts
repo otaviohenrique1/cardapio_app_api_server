@@ -70,9 +70,9 @@ export async function login_cliente(request: Request, response: Response, next: 
  */
 export async function listar_clientes(request: Request, response: Response, next: NextFunction) {
   const clienteRepository = getRepository(Cliente);
-  const { id } = request.params;
+  const { empresa_id } = request.params;
   const cliente = await clienteRepository.find({
-    where: { empresaId: id },
+    where: { empresaId: empresa_id },
   });
   return response.json(cliente);
 }
