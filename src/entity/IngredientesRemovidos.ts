@@ -1,7 +1,7 @@
 import {BaseEntity, Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn} from "typeorm";
 import { ItemPedido } from "./ItemPedido";
 
-@Entity('pedido_ingrediente_removido')
+@Entity('ingrediente_removido')
 export class IngredienteRemovido extends BaseEntity {
   @PrimaryGeneratedColumn()
   id: number;
